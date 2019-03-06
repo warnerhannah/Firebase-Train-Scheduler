@@ -1,0 +1,19 @@
+header {
+    color: darkgreen;
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card-header {
+    color: white;
+    background: darkgreen;
+}
+
+#submit {
+    background: darkgreen;
+    color: white;
+}
