@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
 </head>
 
@@ -36,11 +38,11 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">Example Train</th>
+                        <!-- <td scope="row">Example Train</td>
                         <td>San Diego</td>
                         <td>15</td>
                         <td>04:20</td>
-                        <td>10</td>
+                        <td>10</td> -->
                     </tr>
                 </tbody>
             </table>
@@ -59,10 +61,10 @@
                     <input type="text" class="form-control" id="trainname" placeholder="">
                     <label for="destination">Destination</label>
                     <input type="text" class="form-control" id="traindestination" placeholder="">
-                    <label for="traintime">First Train Time (HH:MM)</label>
-                    <input type="text" class="form-control" id="firsttraintime" placeholder="">
-                    <label for="frequency">Frequency (min.)</label>
-                    <input type="text" class="form-control" id="trainfrequency" placeholder="">
+                    <label for="traintime">First Train Time</label>
+                    <input type="text" class="form-control" id="firsttraintime" placeholder="HH:MM - MILITARY TIME">
+                    <label for="frequency">Frequency</label>
+                    <input type="text" class="form-control" id="trainfrequency" placeholder="(min.)">
                     <input type="submit" id="submit">
                 </form>
             </div>
